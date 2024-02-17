@@ -17,7 +17,7 @@ public class AddOarder extends HttpServlet{
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println("Exception occured now correct");
+			System.out.println("Exceptio now correct");
 		}
 		resp.getWriter().println("Done");
 	}

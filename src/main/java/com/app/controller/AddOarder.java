@@ -17,7 +17,7 @@ public class AddOarder extends HttpServlet{
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println("This is a new commit to check rules");
+			System.out.println("Exception occured");
 		}
 		resp.getWriter().println("Done");
 	}
